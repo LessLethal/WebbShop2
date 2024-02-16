@@ -1,0 +1,240 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    height: 100vh;
+    overflow-x: hidden;
+}´
+
+/*header*/
+
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1em;
+    margin-left: 1em;
+}
+
+.right {
+    margin-right: 1em;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+a {
+    color: var(--black);
+    margin: 1em;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-bg {
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.mainImage {
+    width: 100vw;
+    object-position: 50% 95%;
+    object-fit: cover;
+}
+
+.imgHeading {
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    font-size: 300%;
+}
+
+.imgText {
+    position: absolute;
+    align-self: center;
+    font-size: 150%;
+    color: white;
+    width: 60%;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+span {
+    width: 30vw;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.aboutUsImg {
+    margin-top: 5%;
+    height: 30vh;
+    width: 30vw;
+}
+
+.funFacts {
+    padding-top: 1%;
+    background-color: #FAF9F6;
+    margin-top:16%;
+    height: 50vh;
+    width: 100vw;
+    border: 8px;
+}
+
+.factsHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts {
+    display: flex;
+}
+
+.Uncentered{
+    margin-left: 2%;
+}
+
+.factsContainer {
+    width: 100vw;   
+    display: flex;
+}
+
+.factImages {
+    width: 20vw;
+    height: 20vh;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1024px){
+
+    span {
+        width: 80vw;
+    }
+    .facts {
+        font-size: 13px;
+    }
+
+    .funFacts {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 780px){
+
+    span {
+        width: 80vw;
+    }
+    .facts {
+        font-size: 13px;
+    }
+
+    .funFacts {
+        margin-top: 2%;
+    }
+    .imgText{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 450px){
+
+    span {
+        width: 90vw;
+    }
+    .facts {
+        font-size: 8px;
+    }
+
+    .funFacts {
+        margin-top: 2%;
+    }
+    .factImages{
+        width: 20vw;
+        object-fit: cover;
+    }
+    
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    object-fit: contain;
+    transition: all 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.3);
+}
+
+.ig {
+    height: 2em;
+}
+
+.link-section {
+    display: flex;
+}
+
+.credit-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.credit-contributors {
+    font-size: 2em;
+}
+
+.link-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.credit-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
